@@ -16,8 +16,12 @@ Most recently, [Rahman et al. (2025)](https://arxiv.org/pdf/2510.05495) revisite
 
 
 The experiment in this setup is in the scope of fine-tuning BERT-like model on this dataset. 19 Parent Categories are used in the experiment.
+
 This is a legend of the Classes and their IDs in the results:
-{'astro-ph': 5,
+
+
+
+'astro-ph': 5,
  'cond-mat': 3,
  'cs': 10,
  'econ': 18,
@@ -35,10 +39,10 @@ This is a legend of the Classes and their IDs in the results:
  'q-bio': 9,
  'q-fin': 16,
  'quant-ph': 12,
- 'stat': 15}
+ 'stat': 15
 
 
-Results:
+Results for multi-class classification of Arxiv titles and abstracts using 19 Classes:
 
                 precision    recall  f1-score   support
 
