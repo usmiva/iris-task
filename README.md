@@ -1,7 +1,8 @@
 # iris-task
 
 ## Install the requirements to run the notebooks
-bash'''pip install -r requirements.txt'''
+bash
+'''pip install -r notebooks/requirements.txt'''
 
 arXiv Dataset and Recent Research
 
