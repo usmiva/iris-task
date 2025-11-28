@@ -1,6 +1,9 @@
 # iris-task
 
-A Story of the arXiv Dataset Through Recent Research
+## Install the requirements to run the notebooks
+bash'''pip install -r requirements.txt'''
+
+arXiv Dataset and Recent Research
 
 
 The earliest of the works in this trajectory is that of [Ginev et al. (2019)](https://arxiv.org/pdf/1908.10993) , who framed arXiv papers not merely as documents but as rich sources of scientific statements. Instead of focusing on whole-paper classification, they introduced the task of scientific statement classification, breaking articles into semantically meaningful units and showing that arXiv provides sufficient linguistic diversity for learning fine-grained distinctions across scientific discourse. Their work demonstrated that the dataset supports granular semantic tasks beyond simple category prediction.
@@ -87,3 +90,5 @@ TODO:
 3. Hyperparameter tuning.
 4. Test different BERT models like SciBERT by Beltagy et. al. - https://aclanthology.org/D19-1371.pdf.
 5. Train multi-label BERT classifier
+
+
