@@ -31,3 +31,36 @@ Together, these studies trace a coherent narrative of progress:
 2025 — renewed emphasis on scalable multi-class classification and recommendation (Rahman et al.).
 
 This progression reflects the increasing sophistication of the tasks researchers pursue using arXiv, and highlights how the dataset continues to shape advancements in scientific NLP, classification, and explainability.
+
+The experiment in this setup is in the scope of fine-tuning BERT-like model on this dataset. !9 Parent Categories are used in the experiment.
+
+
+Results:
+
+precision    recall  f1-score   support
+
+           5       0.88      1.00      0.93        14
+           3       0.68      0.94      0.79        16
+          10       0.79      0.73      0.76        15
+          18       0.75      0.71      0.73        17
+          17       0.77      0.94      0.85        18
+           4       0.95      0.82      0.88        22
+           7       0.90      1.00      0.95        19
+          14       0.81      1.00      0.90        13
+           0       0.67      0.73      0.70        11
+           6       0.93      0.65      0.76        20
+           2       0.83      0.87      0.85        23
+           8       0.60      0.60      0.60        10
+          13       0.67      0.53      0.59        15
+          11       0.83      0.80      0.82        25
+           1       0.50      0.29      0.37        17
+           9       0.85      0.89      0.87        19
+          16       0.86      0.90      0.88        21
+          12       0.80      0.86      0.83        28
+          15       0.72      0.68      0.70        19
+
+    accuracy                           0.80       342
+   macro avg       0.78      0.79      0.78       342
+weighted avg       0.79      0.80      0.79       342
+
+![Confusion matrix](image.png)
