@@ -23,3 +23,14 @@ multiclass_model/optimizer.pt filter=lfs diff=lfs merge=lfs -text
 multiclass_model/rng_state.pth filter=lfs diff=lfs merge=lfs -text
 multiclass_model/tokenizer_config.json filter=lfs diff=lfs merge=lfs -text
 multiclass_model/trainer_state.json filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/special_tokens_map.json filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/tokenizer_config.json filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/trainer_state.json filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/model.safetensors filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/optimizer.pt filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/scheduler.pt filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/tokenizer.json filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/training_args.bin filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/vocab.txt filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/config.json filter=lfs diff=lfs merge=lfs -text
+19-multiclass-distilbert/rng_state.pth filter=lfs diff=lfs merge=lfs -text
