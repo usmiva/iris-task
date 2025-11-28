@@ -1,0 +1,20 @@
+numpy>=1.24
+pandas>=2.1
+scikit-learn>=1.2
+matplotlib>=3.7
+seaborn>=0.12
+tqdm>=4.65
+ipywidgets>=8.0
+jupyter>=1.0
+
+# Hugging Face and ML infra
+transformers>=4.30
+datasets>=2.13
+evaluate>=0.4
+huggingface-hub>=0.16
+tokenizers>=0.14
+sentencepiece>=0.1.98    # optional, required by some tokenizers/models
+torch>=2.0               # or the appropriate torch build for your CUDA / CPU
+
+# Utilities
+accelerate>=0.20
