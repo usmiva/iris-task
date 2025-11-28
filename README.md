@@ -71,3 +71,19 @@ Results for multi-class classification of Arxiv titles and abstracts using 19 Cl
 weighted avg       0.79      0.80      0.79       342
 
 ![Confusion matrix](image.png)
+
+
+From the confusion matrix can be seen that there is one class that is wrongly classified most of the time. 
+The problematic label has id 1 and is maped to the physics class. 
+It is predicted 4 times as 3 which maps to cond-mat class or "Conditional matter" - a subcategory of physics as we can see in the taxonomy [here](https://arxiv.org/category_taxonomy) 
+This is probably due to the fact that these two classes are very similar in content.
+Other misclassifications of Physics (id 1) are not as frequent as these 4 misclassifications to Cond-mat (id 3).
+The other classes are classified with very high precision and recall with some room for improvements.
+
+TODO:
+
+1. Experiment with the taxonomy by merging or adding classes in the model. From what is seen 'nucl-ex' with ID 13 and'nucl-th' with ID 11 are mistaken with each other and thus can be merged into one class 'nuclear physics'.
+2. More data can be used for the training as well.
+3. Hyperparameter tuning.
+4. Test different BERT models like SciBERT by Beltagy et. al. - https://aclanthology.org/D19-1371.pdf.
+5. Train multi-label BERT classifier
