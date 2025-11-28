@@ -12,32 +12,35 @@ The earliest of the works in this trajectory is that of [Ginev et al. (2019)](ht
 
 [Schopf et al. (2024)](https://arxiv.org/pdf/2410.05770) investigate few-shot multi-label classification, addressing a challenge often overlooked: many scientific papers straddle multiple research areas. Their work demonstrates that arXiv’s hierarchical, overlapping subject categories make it ideal for multi-label learning. By using few-shot methods, they showed how models can generalize across hundreds of categories with minimal supervision, emphasizing arXiv’s value for low-resource and transfer-learning scenarios.
 
-Most recently, [Rahman et al. (2025)](https://arxiv.org/pdf/2510.05495) revisite large-scale multi-class classification, but with an emphasis on practical recommendation and automated sorting systems. Their work highlighted the continuing relevance—and difficulty—of cleanly assigning papers to single subject areas. Even with traditional machine-learning pipelines, arXiv still poses challenges due to overlapping domains, evolving research trends, and diverse writing styles. Their results underscore that even as modeling techniques evolve, arXiv remains a demanding benchmark.
+Most recently, [Rahman et al. (2025)](https://arxiv.org/pdf/2510.05495) revisite large-scale multi-class classification, but with an emphasis on practical recommendation and automated sorting systems. Their work highlighted the continuing relevance—and difficulty—of cleanly assigning papers to single subject areas. Even with traditional machine-learning pipelines, arXiv still poses challenges due to overlapping domains, evolving research trends, and diverse writing styles. Their results underscore that even as modeling techniques evolve, arXiv remains a demanding benchmark for a large spectre of NLP tasks.
 
-Summary
 
-Together, these studies trace a coherent narrative of progress:
-
-2019 — fine-grained semantic classification within papers (Ginev et al.).
-
-2020 — deep learning for large-scale subject classification (Kandimalla et al.).
-
-2021 — explainability and multimodal STEM understanding (Scharpf et al.).
-
-2023 — transformer fine-tuning and modern baselines (RoBERTa fine-tuning).
-
-2024 — few-shot and multi-label learning for complex taxonomies (Schopf et al.).
-
-2025 — renewed emphasis on scalable multi-class classification and recommendation (Rahman et al.).
-
-This progression reflects the increasing sophistication of the tasks researchers pursue using arXiv, and highlights how the dataset continues to shape advancements in scientific NLP, classification, and explainability.
-
-The experiment in this setup is in the scope of fine-tuning BERT-like model on this dataset. !9 Parent Categories are used in the experiment.
+The experiment in this setup is in the scope of fine-tuning BERT-like model on this dataset. 19 Parent Categories are used in the experiment.
+This is a legend of the Classes and their IDs in the results:
+{'astro-ph': 5,
+ 'cond-mat': 3,
+ 'cs': 10,
+ 'econ': 18,
+ 'eess': 17,
+ 'gr-qc': 4,
+ 'hep-ex': 7,
+ 'hep-lat': 14,
+ 'hep-ph': 0,
+ 'hep-th': 6,
+ 'math': 2,
+ 'nlin': 8,
+ 'nucl-ex': 13,
+ 'nucl-th': 11,
+ 'physics': 1,
+ 'q-bio': 9,
+ 'q-fin': 16,
+ 'quant-ph': 12,
+ 'stat': 15}
 
 
 Results:
 
-precision    recall  f1-score   support
+                precision    recall  f1-score   support
 
            5       0.88      1.00      0.93        14
            3       0.68      0.94      0.79        16
