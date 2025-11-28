@@ -16,7 +16,7 @@ The earliest of the works in this trajectory is that of [Ginev et al. (2019)](ht
 
 [Schopf et al. (2024)](https://arxiv.org/pdf/2410.05770) investigate few-shot multi-label classification, addressing a challenge often overlooked: many scientific papers straddle multiple research areas. Their work demonstrates that arXiv’s hierarchical, overlapping subject categories make it ideal for multi-label learning. By using few-shot methods, they showed how models can generalize across hundreds of categories with minimal supervision, emphasizing arXiv’s value for low-resource and transfer-learning scenarios.
 
-Most recently, [Rahman et al. (2025)](https://arxiv.org/pdf/2510.05495) revisite large-scale multi-class classification, but with an emphasis on practical recommendation and automated sorting systems. Their work highlighted the continuing relevance—and difficulty—of cleanly assigning papers to single subject areas. Even with traditional machine-learning pipelines, arXiv still poses challenges due to overlapping domains, evolving research trends, and diverse writing styles. Their results underscore that even as modeling techniques evolve, arXiv remains a demanding benchmark for a large spectre of NLP tasks.
+Most recently, [Rahman et al. (2025)](https://arxiv.org/pdf/2510.05495) revisite large-scale multi-class classification, but with an emphasis on practical recommendation and automated sorting systems.
 
 
 The experiment in this setup is in the scope of fine-tuning BERT-like model on this dataset. 19 Parent Categories are used in the experiment.
