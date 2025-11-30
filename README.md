@@ -10,10 +10,12 @@ pip install -r notebooks/requirements.txt
 git lfs pull
 ```
 
-arXiv Dataset and Recent Research
+# arXiv Dataset and Recent Research
+
+This dataset shared by Cornell University is rich not only in size but in the range of NLP tasks that it can be used for. Reports with this dataset cover tasks from different disciplines like unsuperrvised analisys of scientific literature, classification - multiclass and multilabel, semantic and mathematical parsing, etc.
 
 
-The earliest of the works in this trajectory is that of [Ginev et al. (2019)](https://arxiv.org/pdf/1908.10993) , who framed arXiv papers not merely as documents but as rich sources of scientific statements. Instead of focusing on whole-paper classification, they introduced the task of scientific statement classification, breaking articles into semantically meaningful units and showing that arXiv provides sufficient linguistic diversity for learning fine-grained distinctions across scientific discourse. Their work demonstrated that the dataset supports granular semantic tasks beyond simple category prediction.
+[Ginev et al. (2019)](https://arxiv.org/pdf/1908.10993)  framed arXiv papers not merely as documents but as rich sources of scientific statements. Instead of focusing on whole-paper classification, they introduced the task of scientific statement classification, breaking articles into semantically meaningful units and showing that arXiv provides sufficient linguistic diversity for learning fine-grained distinctions across scientific discourse. Their work demonstrated that the dataset supports granular semantic tasks beyond simple category prediction.
 
 [Kandimalla et al. (2020)](https://arxiv.org/pdf/2007.13826)  shifted attention to subject-area classification at scale. Using deep attentive neural networks on millions of abstracts, they demonstrated how arXiv’s breadth across physics, mathematics, computer science, and more enables robust modeling of disciplinary boundaries. Their results showed that deep architectures can capture domain-specific writing styles, and that the dataset is sufficiently large to support high-capacity models. This work helped cement arXiv as a benchmark for multi-class document classification.
 
