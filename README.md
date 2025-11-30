@@ -1,8 +1,14 @@
 # iris-task
 
 ## Install the requirements to run the notebooks
-bash
-'''pip install -r notebooks/requirements.txt'''
+```bash
+pip install -r notebooks/requirements.txt
+```
+
+## Pull the large files locally
+```bash
+git lfs pull
+```
 
 arXiv Dataset and Recent Research
 
