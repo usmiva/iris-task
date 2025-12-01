@@ -6,6 +6,7 @@ pip install -r notebooks/requirements.txt
 ```
 
 ## Pull the large files locally
+To pull the large files locally you need to [install git lfs](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage)
 ```bash
 git lfs pull
 ```
