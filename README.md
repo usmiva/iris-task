@@ -11,7 +11,7 @@ To pull the large files locally you need to [install git lfs](https://docs.githu
 git lfs pull
 ```
 
-# [arXiv Dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv) and Recent Research
+# [arXiv Dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv) Top Cited Reports
 
 This dataset shared by Cornell University is rich not only in size but in the range of NLP tasks that it can be used for. Reports with this dataset cover tasks from different disciplines like unsuperrvised analisys of scientific literature, classification - multiclass and multilabel, semantic and mathematical parsing, etc. 
 
