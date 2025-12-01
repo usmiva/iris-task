@@ -15,7 +15,16 @@ git lfs pull
 
 This dataset shared by Cornell University is rich not only in size but in the range of NLP tasks that it can be used for. Reports with this dataset cover tasks from different disciplines like unsuperrvised analisys of scientific literature, classification - multiclass and multilabel, semantic and mathematical parsing, etc. 
 
-Some of the most impactfull papers are listed below:
+
+# Some of the most impactfull papers are listed below
+
+1 [On the use of Arxiv as a dataset]([https://arxiv.org/pdf/1905.00075](https://www.researchgate.net/publication/332799542_On_the_Use_of_ArXiv_as_a_Dataset) by the creators of the dataset Clement et al. and Cornell University introduces a public pipeline to standardize and simplify access to arXiv metadata + full-text, builds a 6.7M-edge citation graph + 11-billion-word text corpus; provides baseline classification results to show viability of arXiv as a benchmark dataset.
+
+2. Most recently, [Rahman et al. (2025)](https://arxiv.org/pdf/2510.05495) revisite large-scale multi-class classification with an emphasis on practical recommendation and automated sorting systems.
+
+3. [Schopf et al. (2024)](https://arxiv.org/pdf/2410.05770) investigate few-shot multi-label classification, addressing a challenge often overlooked: many scientific papers straddle multiple research areas. Their work demonstrates that arXiv’s hierarchical, overlapping subject categories make it ideal for multi-label learning. By using few-shot methods, they showed how models can generalize across hundreds of categories with minimal supervision, emphasizing arXiv’s value for low-resource and transfer-learning scenarios.
+
+# Other tasks are covered in the following reports
 
 
 [Ginev et al. (2019)](https://arxiv.org/pdf/1908.10993)  framed arXiv papers not merely as documents but as rich sources of scientific statements. Instead of focusing on whole-paper classification, they introduced the task of scientific statement classification, breaking articles into semantically meaningful units and showing that arXiv provides sufficient linguistic diversity for learning fine-grained distinctions across scientific discourse. Their work demonstrated that the dataset supports granular semantic tasks beyond simple category prediction.
@@ -25,9 +34,7 @@ Some of the most impactfull papers are listed below:
 [Scharpf et al. (2021)](https://arxiv.org/pdf/2109.00954) explored classification in STEM fields using both textual content and mathematical formulas, arguing that arXiv is uniquely suited for multimodal scientific NLP. In their work, formulas were treated as first-class linguistic objects, and the study demonstrated how pairing text with symbolic structure can improve classification while providing explanations tied to mathematical entities. This reframed arXiv as a multimodal resource rather than a purely textual one.
 
 
-[Schopf et al. (2024)](https://arxiv.org/pdf/2410.05770) investigate few-shot multi-label classification, addressing a challenge often overlooked: many scientific papers straddle multiple research areas. Their work demonstrates that arXiv’s hierarchical, overlapping subject categories make it ideal for multi-label learning. By using few-shot methods, they showed how models can generalize across hundreds of categories with minimal supervision, emphasizing arXiv’s value for low-resource and transfer-learning scenarios.
 
-Most recently, [Rahman et al. (2025)](https://arxiv.org/pdf/2510.05495) revisite large-scale multi-class classification, but with an emphasis on practical recommendation and automated sorting systems.
 
 
 # The experiment in this setup is in the scope of fine-tuning BERT-like model for classification with this dataset.
