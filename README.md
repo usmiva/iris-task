@@ -12,7 +12,9 @@ git lfs pull
 
 # arXiv Dataset and Recent Research
 
-This dataset shared by Cornell University is rich not only in size but in the range of NLP tasks that it can be used for. Reports with this dataset cover tasks from different disciplines like unsuperrvised analisys of scientific literature, classification - multiclass and multilabel, semantic and mathematical parsing, etc. Some of the most impactfull papers are mentioned below:
+This dataset shared by Cornell University is rich not only in size but in the range of NLP tasks that it can be used for. Reports with this dataset cover tasks from different disciplines like unsuperrvised analisys of scientific literature, classification - multiclass and multilabel, semantic and mathematical parsing, etc. 
+
+Some of the most impactfull papers are listed below:
 
 
 [Ginev et al. (2019)](https://arxiv.org/pdf/1908.10993)  framed arXiv papers not merely as documents but as rich sources of scientific statements. Instead of focusing on whole-paper classification, they introduced the task of scientific statement classification, breaking articles into semantically meaningful units and showing that arXiv provides sufficient linguistic diversity for learning fine-grained distinctions across scientific discourse. Their work demonstrated that the dataset supports granular semantic tasks beyond simple category prediction.
@@ -27,8 +29,13 @@ This dataset shared by Cornell University is rich not only in size but in the ra
 Most recently, [Rahman et al. (2025)](https://arxiv.org/pdf/2510.05495) revisite large-scale multi-class classification, but with an emphasis on practical recommendation and automated sorting systems.
 
 
-# The experiment in this setup is in the scope of fine-tuning BERT-like model on this dataset. 19 Parent Categories are used in the experiment.
-1 Exploratoty analisys of the dataset are performed in this notebook ![Datset exploration](./notebooks/dataset_exploration.ipynb). In the same notebook the dataset is processed and splitted into train test and validation splits in 80/10/10 proportion.
+# The experiment in this setup is in the scope of fine-tuning BERT-like model for classification with this dataset.
+
+The multi-class setup will be explored using only the the top level parent categories from the taxonomy of categories defined [here](https://arxiv.org/category_taxonomy).  
+1 Exploratoty analisys of the dataset are performed in this notebook ![Datset exploration](./notebooks/dataset_exploration.ipynb). 
+Extracted are 200 samples per category and the resulting datasets are stored in the [datasets](./datasets) directory.
+In the same notebook the dataset is processed and splitted into train test and validation splits in 80/10/10 proportion.
+
 2. In the ![Fine-tuning](./notebooks/fine-tuning.ipynb) notebook is the procedure to tokenize and train a BERT-like model
 3. The trained model is then tested on unseen data in ![Test and evaluate](./notebooks/test-evaluation.ipynb)
 
