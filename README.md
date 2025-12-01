@@ -29,7 +29,7 @@ Most recently, [Rahman et al. (2025)](https://arxiv.org/pdf/2510.05495) revisite
 
 # The experiment in this setup is in the scope of fine-tuning BERT-like model on this dataset. 19 Parent Categories are used in the experiment.
 1 Exploratoty analisys of the dataset are performed in this notebook ![Datset exploration](./notebooks/dataset_exploration.ipynb). In the same notebook the dataset is processed and splitted into train test and validation splits in 80/10/10 proportion.
-2. In the "fine-tuning.ipynb" notebook is the procedure to tokenize and train a BERT-like model
+2. In the ![Fine-tuning](./notebooks/fine-tuning.ipynb) notebook is the procedure to tokenize and train a BERT-like model
 3. The trained model is then tested on unseen data in ![Test and evaluate](./notebooks/test-evaluation.ipynb)
 
 This is a legend of the Classes and their IDs in the results:
